@@ -552,7 +552,7 @@
   </main>
 
   <script>
-    const API_KEY = '8265bd1679663a7ea12ac168da84d2e8';
+    const API_KEY = 'be78689897669066bef6906e501b0e10';
     const endpoints = {
       trending: `trending/all/week`,
       nowPlaying: `movie/now_playing`,
