@@ -851,5 +851,16 @@
     // Initialize
     loadHome();
   </script>
+  # Script per rimuovere la pubblicità
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var ads = document.querySelectorAll('.advertisement, .ad, .ads');
+        ads.forEach(function(ad) {
+            ad.style.display = 'none';
+        });
+    });
+</script>
+
 </body>
 </html>
